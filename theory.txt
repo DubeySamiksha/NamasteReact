@@ -1,0 +1,36 @@
+1. What is Emmet ?
+=> Emmet is a plugin for code editors that gives fast and easy-to-use snippets for HTML and other code formats. It allows developers to expand abbreviations into full HTML, or other code blocks by using a few words.
+
+2. Difference between a library and a framework ?
+=> A framework is basically a full-fledged framework which is supposed to be used to create an entire application from scratch. It comes with a complete set of tools and functions which are needed to make entire application. For eg. AngularJS.
+A library on the other hand is a small piece of code written in a particular language which can be used to perform certain specific tasks, and can be injected into some small part of already built application also. For eg. ReactJS.
+ReactJS is a javascript library which only focusses on making UI components. It has one job to take care of which is UI and for all the other jobs like api calls, routing, it can plug-and-play with a lot of other plugins.
+
+3. What is a CDN ? Why do we use it ?
+=> CDNs are basically Content Delivery Networks. They are used to deliver content through a network of servers in a secure and efficient way. 
+A CDN’s network of servers allows companies to deliver content from their websites to people more quickly and efficiently, based on their geographic location. In short, a CDN moves data and applications closer to the end user — increasing speed, enhancing security, and improving the user experience.
+
+4. Why is React known as React ?
+=> React is a JavaScript library for building user interfaces. It was developed by Facebook, and the name “React” was chosen because it is meant to help developers build user interfaces that are fast and responsive, or “reactive.” The library was designed to “react” to changes in data.
+
+5. What is cross-origin in the script tag ?
+=> The crossorigin attribute sets the mode of the request to an HTTP CORS Request.
+Web pages often make requests to load resources on other servers. Here is where CORS comes in.
+A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain.
+
+6. What is the difference between React and ReactDOM ?
+=> React: React is a javascript library, designed for building better user interfaces.
+React-DOM: React-DOM is a complimentary library to React which glues React to the browser DOM.
+React and ReactDOM were only recently split into two different libraries. Prior to v0.14, all ReactDOM functionality was part of React.
+As the name implies, ReactDOM is the glue between React and the DOM. Often, you will only use it for one single thing: mounting with ReactDOM.render(). Another useful feature of ReactDOM is ReactDOM.findDOMNode() which you can use to gain direct access to a DOM element.
+For everything else, there's React. You use React to define and create your elements, for lifecycle hooks, etc. i.e. the guts of a React application.
+
+7. What is the difference between react.development.js and react.production.js files via CDN ?
+=> react.development.js - More developer friendly, readable, will take more size. Will help debugging and development more efficient.
+react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, code efficiency.
+
+8. What are async and defer ?
+=> Async and defer both are the attributes used in script tag. Async allows your script to run as soon as it's loaded, without blocking other elements on the page. Defer means your script will only execute after the page has finished loading.
+
+
+
